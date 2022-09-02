@@ -1,0 +1,17 @@
+In order to test out your brand new python skills, we would like to suggest a little challenge for you.
+Especially, function, that should find the roots of quadratic equation need to be implemented.
+Quadratic equation should be in classic form: ax**2+bx+c=0, so a,b,c will be entered from user input
+(don't forget to implement messages for user, who will use this script).
+
+Python code should be splitted by few simple functions:
+
+- main() here our program will be started, and all required data asked
+- ask_value(message) this function should ask user for input, and then return variable.
+Good to have additional input validation here.
+- discriminant(a,b,c) no much, no less just return discriminant.
+- roots(d,a,b,c) will show on the screen all acceptable roots
+- solv_square(a,b,c) this function should contain inside discriminant and roots functions.
+
+And that's all! If you will have the script created, and it's actually working
+(you can enter variables, and after that roots will be shown on the screen) -
+the task is successfully passed!
